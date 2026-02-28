@@ -1,0 +1,19 @@
+# 忽略 ROS 2 编译产物
+build/
+install/
+log/
+
+# 忽略 Python 缓存
+__pycache__/
+*.pyc
+
+# 忽略 VS Code 配置
+.vscode/
+
+# 忽略你生成的地图文件 (如果你想上传代码但不上传地图)
+*.pgm
+*.yaml
+*.pdf
+
+# 忽略数据备份文件
+*.pkl
